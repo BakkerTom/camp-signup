@@ -1,4 +1,5 @@
-import {Formik} from "formik";
+import Form from "@/components/form";
+import Logo from "@/components/logo";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -11,15 +12,12 @@ export default function Inschrijven() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className='min-h-screen flex flex-col justify-center items-center'>
-        <h1>Schrijf je nu in</h1>
-
-        <Formik initialValues={{ name: null, }}
-          {props => (
-            <input type='text' />
-          )}
-        </Formik>
+      <main className="max-w-xl mx-auto px-4 pt-8">
+        <div className="flex items-center mb-8">
+          <Logo className="h-32" />
+        </div>
+        <Form />
       </main>
     </>
-  )
+  );
 }
