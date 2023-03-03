@@ -1,11 +1,4 @@
-import { Formik } from "formik";
-import { useCallback } from "react";
-
 export default function Form() {
-  const onSubmit = useCallback((values) => {
-    console.log(values);
-  }, []);
-
   return (
     <form
       method="post"
