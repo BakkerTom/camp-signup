@@ -12,7 +12,7 @@ export default function Form() {
 
       <div className="space-y-4">
         <div className="flex flex-col space-y-2">
-          <label for="id-t10xRHLUGt">E-mailadres&nbsp;*</label>
+          <label htmlFor="id-t10xRHLUGt">E-mailadres&nbsp;*</label>
           <input
             className="bg-slate-700 px-4 py-3 border border-slate-500"
             name="t10xRHLUGt"
@@ -23,7 +23,7 @@ export default function Form() {
         </div>
 
         <div className="flex flex-col space-y-2">
-          <label for="id-aLSkxolEsP">Naam&nbsp;*</label>
+          <label htmlFor="id-aLSkxolEsP">Naam&nbsp;*</label>
           <input
             name="aLSkxolEsP"
             id="id-aLSkxolEsP"
@@ -34,7 +34,7 @@ export default function Form() {
         </div>
 
         <div className="flex flex-col space-y-2">
-          <label for="id-h4p1oRLKsa">Rol&nbsp;*</label>
+          <label htmlFor="id-h4p1oRLKsa">Rol&nbsp;*</label>
           <select
             className="bg-slate-700 px-4 py-3 border border-slate-500"
             name="h4p1oRLKsa"
@@ -47,7 +47,9 @@ export default function Form() {
         </div>
 
         <div className="flex flex-col space-y-2">
-          <label for="id-Cw1k85Pwd0">Telefoonnummer (in geval van nood)</label>
+          <label htmlFor="id-Cw1k85Pwd0">
+            Telefoonnummer (in geval van nood)
+          </label>
           <input
             className="bg-slate-700 px-4 py-3 border border-slate-500"
             name="Cw1k85Pwd0"
@@ -57,7 +59,7 @@ export default function Form() {
         </div>
 
         <div className="flex flex-col space-y-2">
-          <label for="id-U0hcv4QQ5q">Opmerkingen</label>
+          <label htmlFor="id-U0hcv4QQ5q">Opmerkingen</label>
           <input
             className="bg-slate-700 px-4 py-3 border border-slate-500"
             name="U0hcv4QQ5q"
