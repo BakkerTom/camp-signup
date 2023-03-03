@@ -53,11 +53,33 @@ export default function Form() {
           </select>
         </div>
 
-        <input
-          className="block w-full bg-blue-600 p-4"
-          type="submit"
-          value="Aanmelden"
-        />
+        <div className="flex flex-col space-y-2">
+          <label for="id-Cw1k85Pwd0">Telefoonnummer (in geval van nood)</label>
+          <input
+            className="bg-slate-700 px-4 py-3 border border-slate-500"
+            name="Cw1k85Pwd0"
+            id="id-Cw1k85Pwd0"
+            type="text"
+          ></input>
+        </div>
+
+        <div className="flex flex-col space-y-2">
+          <label for="id-U0hcv4QQ5q">Opmerkingen</label>
+          <input
+            className="bg-slate-700 px-4 py-3 border border-slate-500"
+            name="U0hcv4QQ5q"
+            id="id-U0hcv4QQ5q"
+            type="text"
+          ></input>
+        </div>
+
+        <div className="pt-8">
+          <input
+            className="block w-full bg-blue-600 p-4"
+            type="submit"
+            value="Aanmelden"
+          />
+        </div>
       </div>
     </form>
   );
